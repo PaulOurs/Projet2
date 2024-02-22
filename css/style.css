@@ -1,3 +1,6 @@
+@import url("header.css");
+@import url("info_group.css");
+
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
