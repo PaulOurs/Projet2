@@ -29,14 +29,15 @@
     padding: 0 0px 0 0px;
     width: 195px;
     border: none;
-    font-weight: 700;
+    font-weight: bolder;
     font-size: 18px;
     text-align: center;
     
 }
 
 .search-localisation::placeholder {
-    opacity: 50%;
+    /* opacity: 50%; */
+    color: black
 }
 
 .search-localisation:focus {
