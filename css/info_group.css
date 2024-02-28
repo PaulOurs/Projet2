@@ -56,3 +56,51 @@
     font-weight: bolder;
     background-color: var(--main-color);
 }
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    /* margin-bottom: 35px; */
+    margin: 35px 0 35px 0;
+}
+
+.filter-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.filter-list .filter-btn {
+    height: 50px;
+    background-color: white;
+    border: solid 3px var(--main-bg-color);
+    border-radius: 25px;
+    margin: 0 0 0 20px;
+    padding: 4px 19px 4px 19px;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.filter-list .filter-btn:hover {
+    background-color: var(--filter-bg-color);
+}
+
+.filter-btn .fa-solid {
+    margin-right: 5px;
+}
+
+.infobar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.infobar p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 0 10px;
+}

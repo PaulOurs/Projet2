@@ -1,5 +1,6 @@
 @import url("header.css");
 @import url("info_group.css");
+@import url("hebergement.css");
 
 /****** General ***********/
 * {
@@ -74,10 +75,6 @@ a {
     box-sizing: border-box;
 }
 
-/****** Hebergements ***********/
-.hebergements {
-    width: 65%;
-}
 
 /****** Populaires ***********/
 .populaires {
@@ -92,6 +89,7 @@ a {
 
 .populaires-cards .card {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 33px;
 }
 
