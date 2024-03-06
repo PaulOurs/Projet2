@@ -2,18 +2,31 @@
     width: 65%;
 }
 
-.hebergements-cards {
+/* .hebergements-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
+} */
+
+.hebergements-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+/* .hebergements-cards .card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+    width: 250px;
+} */
 
 .hebergements-cards .card {
     display: flex;
     flex-direction: column;
     margin-top: 33px;
-    width: 250px;
-}
+    width: 95%;
+  }
 
 .hebergements-cards img {
     /* width: 33%; */
@@ -22,14 +35,23 @@
     border-top-right-radius: 20px;
 }
 
-.hebergements-cards .card-content {
+/* .hebergements-cards .card-content {
     width: 67%;
     padding-left: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
-}
+} */
+
+.hebergements-cards .card-content {
+    /* width: 100%; */
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
 
 .hebergements-cards .card-title {
     margin-top: 10px;
