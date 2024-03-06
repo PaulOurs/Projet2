@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    width: 100%;
+    background-color: var(--main-bg-color);
+    margin-top: 50px;
+    justify-content: left;
+
+}
+
+.div {
+    width: 100%;
+    list-style: none;
+    list-style-type: none;
+    padding: 0 0 0 15px;
+    border: red solid 1px;
+}
+
+.lists {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.footer li {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
