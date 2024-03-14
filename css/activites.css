@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .activities-cards .card {
@@ -16,7 +17,20 @@
     overflow: hidden;
 }
 
-.activities-cards img {
+/* .activities-cards img {
     height: 400px;
-    width: 100;
+    width: 100%;
+} */
+
+.activities-cards .card-img {
+    height: 400px;
+    min-width: 200px;
+    width: auto;
+    max-width: 300px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.activities-cards .card-title {
+    margin: 10px 0 10px 15px;
 }
