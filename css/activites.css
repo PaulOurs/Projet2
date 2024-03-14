@@ -13,7 +13,7 @@
 .activities-cards a {
     width: 100%;
     min-width: 150px;
-    max-width: 300px;
+    max-width: 297.5px;
 }
 
 .activities-cards .card {
@@ -30,11 +30,21 @@
 } */
 
 .activities-cards .card-img {
-    height: 400px;
+    height: 380px;
     object-fit: cover;
     background-size: cover;
+    background-position: center;
 }
 
 .activities-cards .card-title {
     margin: 10px 0 10px 15px;
+}
+
+@media screen and (max-width: 1024px) {
+    .activities-cards {
+        gap: 20px;
+    }
+    .activities-cards .card-img {
+        height: 200px;
+    }
 }

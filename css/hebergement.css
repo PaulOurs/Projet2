@@ -37,6 +37,7 @@
 
 .hebergements-cards .card-img {
     background-size: cover;
+    background-position: center;
     height: 136px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -85,4 +86,29 @@
     color: var(--main-color);
     text-decoration: underline var(--main-color);
     cursor: pointer;
+}
+
+#hotel_du_port {
+    background-image: url("../images/hebergements/fred-kleber.jpg")
+}
+#hotel_chez_amina {
+    background-image: url("../images/hebergements/febrian-zakaria.jpg");
+}
+#hotel_les_mouettes {
+    background-image: url("../images/hebergements/reisetopia.jpg");
+}
+#hotel_de_la_mer {
+    background-image: url("../images/hebergements/annie-spratt.jpg");
+}
+#hotel_la_canebière {
+    background-image: url("../images/hebergements/marcus-loke.jpg");
+}
+#auberge_le_panier {
+    background-image: url("../images/hebergements/nicate-lee.jpg");
+}
+
+@media screen and (max-width: 1060px) and (min-width: 1025px) {
+    .hebergements-cards .card-content {
+        padding-left: 5px;
+    }
 }
