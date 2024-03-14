@@ -7,6 +7,13 @@
     flex-direction: row;
     justify-content: space-between;
     margin-top: 20px;
+    gap: 25px;
+}
+
+.activities-cards a {
+    width: 100%;
+    min-width: 150px;
+    max-width: 300px;
 }
 
 .activities-cards .card {
@@ -24,9 +31,6 @@
 
 .activities-cards .card-img {
     height: 400px;
-    min-width: 200px;
-    width: auto;
-    max-width: 300px;
     object-fit: cover;
     background-size: cover;
 }
