@@ -117,5 +117,15 @@ a {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+    }
+
+    .populaires {
+        margin-bottom: 30px;
+    }
+
+    .populaires-cards {
+        flex-direction: column;
+    }
 }

@@ -48,3 +48,9 @@
         height: 200px;
     }
 }
+
+@media screen and (max-width: 767.98px) {
+    .activities-cards {
+        flex-direction: column;
+    }
+}
