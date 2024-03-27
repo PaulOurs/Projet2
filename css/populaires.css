@@ -42,3 +42,9 @@
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+
+@media screen and (max-width: 767.98px) {
+    .populaires {
+        width: 100%;
+    }
+}

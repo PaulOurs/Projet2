@@ -128,4 +128,8 @@ a {
     .populaires-cards {
         flex-direction: column;
     }
+
+    .populaires-cards a {
+        width: 100%;
+    }
 }
