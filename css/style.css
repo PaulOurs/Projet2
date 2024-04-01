@@ -117,6 +117,7 @@ a {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+
     .hebergements-and-populaires {
         flex-direction: column-reverse;
     }
@@ -131,5 +132,11 @@ a {
 
     .populaires-cards a {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main-container {
+        padding: 0 0px;
     }
 }
